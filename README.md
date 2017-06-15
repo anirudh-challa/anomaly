@@ -16,8 +16,9 @@ To run PSL:
 cd groovy
 ./run.sh
 
-To get top spammers along with score of truthfulness in a sperpate file called results.txt:
+To get top spammers along with score of truthfulness in a sperpate file called results.txt (dependency on sklearn and numpy packages):
 
 eg:python results.py 4
 
 This will give you the top 4 spammers with the worst truthful scores. You can change this to any number.
+
